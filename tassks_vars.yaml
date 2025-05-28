@@ -4,9 +4,9 @@
   tasks: 
     - name: printing the course info
       vars:
-      COURSE: devops with aws
-      DURATION: 1 hour
-      TRAINER: sivakumar sir
+        COURSE: devops with aws
+        DURATION: 1 hour
+        TRAINER: sivakumar sir
       ansible.builtin.debug:
         msg: "hello from the {{ COURSE }} which has {{ DURATION }} and under the training by {{ TRAINER }}"
   
