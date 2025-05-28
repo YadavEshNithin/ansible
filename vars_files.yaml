@@ -1,0 +1,13 @@
+- name: play level vars
+  hosts: local
+  connection: local
+  vars: course.yaml
+  tasks: 
+    - name: printing the course info
+      ansible.builtin.debug:
+        msg: "hello from the {{ COURSE }} which has {{ DURATION }} and under the training by {{ TRAINER }}"
+  
+    - name: printing the course info again
+      ansible.builtin.debug:
+        msg: "hello from the {{ COURSE }} which has {{ DURATION }} and under the training by {{ TRAINER }}"
+    
