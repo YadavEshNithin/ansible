@@ -15,5 +15,5 @@
   tasks:
   - name: printing the vars of different datatypes
     ansible.builtin.debug:
-     msg: "hello from COURSE: {{COURSE}}, DURATION: {{DURATION}}, IS_live:{{ IS_live: }}, TOOLS: {{TOOLS}}, CONCEPTS: {{CONCEPTS}}"
+      msg: "hello from COURSE: {{COURSE}}, DURATION: {{DURATION}}, IS_live:{{ IS_live: }}, TOOLS: {{TOOLS}}, CONCEPTS: {{CONCEPTS}}"
 
