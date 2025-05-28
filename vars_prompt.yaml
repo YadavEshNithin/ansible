@@ -11,4 +11,4 @@
   tasks:
     - name: printing the prompt values
       ansible.builtin.debug:
-        msg: "hello from the {{ USERNAME }} and the PASSWORD is {{ PASSWORD }}"
+        msg: "hello from the USERNAME is {{ USERNAME }} and the PASSWORD is {{ PASSWORD }}"
