@@ -1,0 +1,19 @@
+- name: vars datatypes
+  hosts: local
+  connection: local
+  vars:
+    COURSE: "devops"
+    DURATION: 120
+    IS_live: true
+    TOOLS:
+    - Linux
+    - Shell
+    - Ansible
+    CONCEPTS:
+    CI: jenkins
+    SCRIPTING: "SHELL, ANSIBLE, PYTHON, TERRAFORM"
+  tasks:
+  - name: printing the vars of different datatypes
+    ansible.builtin.debug:
+     msg: "hello from COURSE: {{COURSE}}, DURATION: {{DURATION}}, IS_live:{{ IS_live: }}, TOOLS: {{TOOLS}}, CONCEPTS: {{CONCEPTS}}"
+
