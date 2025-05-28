@@ -10,8 +10,8 @@
     - Shell
     - Ansible
     CONCEPTS:
-    CI: jenkins
-    SCRIPTING: "SHELL, ANSIBLE, PYTHON, TERRAFORM"
+      CI: jenkins
+      SCRIPTING: "SHELL, ANSIBLE, PYTHON, TERRAFORM"
   tasks:
   - name: printing the vars of different datatypes
     ansible.builtin.debug:
