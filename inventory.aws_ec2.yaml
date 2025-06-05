@@ -6,7 +6,7 @@ keyed_groups:
   prefix: "dynamic"
   separator: "_"
 filters:
-  tag:Name: frontend_new
+  tag:Name: frontend
   instance-state-name : running
 hostnames:
   # You can also specify a list in order of precedence for hostname variables.
