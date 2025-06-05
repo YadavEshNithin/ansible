@@ -1,6 +1,6 @@
 - name: create aws ec2_instances and route53 records
   hosts: local
-  connections: local
+  connection: local
   vars: 
     instances: 
       - mysql 
