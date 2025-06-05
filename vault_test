@@ -1,0 +1,6 @@
+- name: storing passwords in vault
+  hosts: local
+  connections: local
+  tasks: 
+    - name: create a value
+      
